@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap');
+/* To do Protoype page*/
+.body{
+
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.box {
+    
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.accordion-body{
+    margin: 2%;
+    text-align: center;
+}
+
+.btn-primary{
+
+    margin-top: 2%;
+}
+.accordion{
+   margin-top: 5%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+    width: 70%;
+}
+
+
+/* To do List Page*/
+.tolist{
+
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+    background-color: rgba(213, 227, 236, 0.466);
+    justify-content: center;
+    width: 70%;
+}
+.innerlists{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 2% 0;
+    width: 95%;
+}
+
+/* just to make it look same this will change when we add connect to db for complete task*/
+.finshedwork::placeholder{
+
+    text-decoration: line-through;
+}
+
+/*Input*/
+ input[type=username], input[type=password],input[type=auth] {
+    padding: 12px 20px;
+   margin: 8px 0;
+    width: 65%;
+    
+    background-color: rgb(245, 243, 243);
+    box-sizing: border-box;
+    border: none;
+    transition: width 0.5s;
+    border-bottom: solid white;
+    letter-spacing: 3px;
+    
+
+  
+  }
+  
+  input[type=username]:focus, input[type=password]:focus,input[type=auth]:focus{
+    outline: none;
+    border-bottom:  solid rgb(213, 227, 236);
+    width: 80%;
+    
+
+
+
+ }
